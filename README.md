@@ -32,7 +32,8 @@ It has pages corresponding to each endpoint in a service<img width="1783" alt="S
 ## tests
 It has tests that consumes from helper and run using pytest
 
+
 Runs on CI:
-<img width="1774" alt="Screenshot 2022-01-22 at 11 23 33 PM" src="https://user-images.githubusercontent.com/13623482/150650084-1776cf71-9bfe-4505-a554-c32fd25edeef.png">
-<img width="1783" alt="Screenshot 2022-01-22 at 11 23 43 PM" src="https://user-images.githubusercontent.com/13623482/150650098-e6864d37-6a44-430c-8589-be6de0e75ebb.png">
+<img width="1762" alt="Screenshot 2022-01-22 at 11 23 33 PM" src="https://user-images.githubusercontent.com/13623482/150650198-3c410861-77d4-4a58-86ef-46f070946484.png">
+<img width="1764" alt="Screenshot 2022-01-22 at 11 23 43 PM" src="https://user-images.githubusercontent.com/13623482/150650204-f866c8d0-8df5-44cc-a72c-dfcb8a834e5b.png">
 
