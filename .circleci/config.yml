@@ -39,6 +39,7 @@ jobs:
           command: |
             export FLASK_APP=app.py
             flask run
+          background: true
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
