@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "jobsList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "jobId": {
+            "type": "string"
+          },
+          "company": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "experience": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "contact": {
+            "type": "string",
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,17 +1,14 @@
-import json
-import requests
+import data.fixture
+import utility.returnJson as jsonHelper
 
-studentDetailsFile = open("studentDetails.json")
-jobSearchFile = open("jobSearch.json")
+studentDetailsFile = data.fixture.studentDetailsFile
+jobSearchFile = data.fixture.jobSearchFile
 
-studentDetailsJson = json.load(studentDetailsFile)
-jobSearchJson = json.load(jobSearchFile)
+studentDetailsJson = jsonHelper.returnJson.returnJsonResponse(studentDetailsFile)
+jobSearchJson = jsonHelper.returnJson.returnJsonResponse(jobSearchFile)
 
 
-# print(studentDetailsJson)
-# print(jobSearchJson)
-
-def searchJob(studentDetails, jobSearch):
+def test_searchJob(studentDetails, jobSearch):
     experienceFilter = studentDetails['filter']['experience']
     typeFilter = studentDetails['filter']['type']
     skillFilter = studentDetails['filter']['skill']
@@ -24,7 +21,7 @@ def searchJob(studentDetails, jobSearch):
             'company'] or locationFilter == ele['location']:
             resultList.append(ele)
             #print(ele)
+            assert experienceFilter == ele['experience']
     print(resultList)
 
-
-searchJob(studentDetailsJson, jobSearchJson)
+test_searchJob(studentDetailsJson, jobSearchJson)

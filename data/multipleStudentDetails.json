@@ -1,0 +1,14 @@
+[
+  {
+    "studentId": "1234",
+    "filter": {
+      "experience": "7"
+    }
+  },
+  {
+    "studentId": "316",
+    "filter": {
+      "type": "temp"
+    }
+  }
+]
