@@ -1,4 +1,4 @@
-baseUrl = "http://0.0.0.0:105"
+baseUrl = "http://127.0.0.1:5000"
 studentDetailsFile = "/data/studentDetails.json"
 multipleStudentDetailsFile = "/data/multipleStudentDetails.json"
 jobSearchFile = "/data/jobSearch.json"
