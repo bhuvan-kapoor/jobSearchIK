@@ -26,14 +26,13 @@ It contains any redundant data that can be shared across classes like base url f
 It has all the utilities like building requests, geting json from file.
 
 ## helper
-It has pages corresponding to each endpoint in a service<img width="1783" alt="Screenshot 2022-01-22 at 11 23 43 PM" src="https://user-images.githubusercontent.com/13623482/150650080-efabed21-d19d-4785-80e7-f3744abbabe7.png">
-
+It has pages corresponding to each endpoint in a service
 
 ## tests
 It has tests that consumes from helper and run using pytest
 
 
-Runs on CI:
+## Runs on CI:
 <img width="1762" alt="Screenshot 2022-01-22 at 11 23 33 PM" src="https://user-images.githubusercontent.com/13623482/150650198-3c410861-77d4-4a58-86ef-46f070946484.png">
 <img width="1764" alt="Screenshot 2022-01-22 at 11 23 43 PM" src="https://user-images.githubusercontent.com/13623482/150650204-f866c8d0-8df5-44cc-a72c-dfcb8a834e5b.png">
 
