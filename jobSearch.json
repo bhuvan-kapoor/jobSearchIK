@@ -1,24 +1,31 @@
 {
-"jobsList":[
-{
-"jobId":"JOB123",
-"company":"ABC",
-"location":"Bangalore",
-"experience":"3-5",
-"description":"job description for the job",
-"type":"permanent",
-"contact":"9999999999"
-
-},
-{
-"jobId":"JOB456",
-"company":"XYZ",
-"location":"Hyderabad",
-"experience":"3-5",
-"description":"job description for the job",
-"type":"permanent",
-"contact":"9999999999"
-
-}
-]
+  "jobsList": [
+    {
+      "jobId": "JOB123",
+      "company": "ABC",
+      "location": "Bangalore",
+      "experience": "3-5",
+      "description": "job description for the job",
+      "type": "permanent",
+      "contact": "9999999999"
+    },
+    {
+      "jobId": "JOB456",
+      "company": "XYZ",
+      "location": "Hyderabad",
+      "experience": "3-5",
+      "description": "job description for the job",
+      "type": "permanent",
+      "contact": "9999999999"
+    },
+    {
+      "jobId": "JOB226",
+      "company": "XYDDZ",
+      "location": "Delhi",
+      "experience": "3-7",
+      "description": "job description for the job",
+      "type": "temp",
+      "contact": "999992229999"
+    }
+  ]
 }
