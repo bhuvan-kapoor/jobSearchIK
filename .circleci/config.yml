@@ -38,7 +38,7 @@ jobs:
           # This assumes pytest is installed via the install-package step above
           command: |
             export FLASK_APP=app.py
-            flask run
+            flask run --host=0.0.0.0 --port=105
           background: true
       - run:
           name: Run tests
