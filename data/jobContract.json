@@ -27,7 +27,7 @@
             "type": "string"
           },
           "contact": {
-            "type": "string",
+            "type": "string"
           }
         }
       }
