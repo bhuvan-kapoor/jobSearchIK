@@ -1,3 +1,5 @@
+# jobSearchIK
+
 This is an automation framework with a job service running which takes filter selected by student as input and returns the list of jobs selected. The job's selected is a union of all the filters to make it more selective. The logic can be changed to intersection as well.
 The automation suite works on top of that. It includes unit tests, contract tests and functional tests in TDD format.
 It is also integrated with CI and tests run on any commit to main branch
