@@ -1,0 +1,10 @@
+{
+"studentId":"1234",
+"filter":{
+"experience":"3-5",
+"type":"permanent",
+"skill":"java,mysql",
+"companyName":"ABC",
+"location":"any"
+}
+}
