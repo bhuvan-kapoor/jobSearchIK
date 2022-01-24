@@ -3,3 +3,5 @@ virtualenv
 flask
 requests~=2.25.1
 jsonschema~=3.2.0
+pytest-reportportal~=1.0
+pytest-html
